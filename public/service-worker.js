@@ -1,10 +1,8 @@
 const CACHE_NAME = 'pwa-radio-player-v1';
 const urlsToCache = [
-  '/',
-  '/src/main.tsx',
-  '/src/index.css',
-  '/stations.json',
-  '/manifest.json'
+  './',
+  './stations.json',
+  './manifest.json'
 ];
 
 self.addEventListener('install', (event) => {
