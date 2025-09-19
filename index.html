@@ -26,13 +26,13 @@
 
   <body>
     <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
     
     <!-- PWA Service Worker Registration -->
     <script>
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', () => {
-          navigator.serviceWorker.register('./service-worker.js')
+          const baseURL = document.querySelector('base')?.href || window.location.origin + '/color-radio-hub/';
+          navigator.serviceWorker.register(new URL('service-worker.js', baseURL))
             .then((registration) => {
               console.log('SW registered: ', registration);
             })
