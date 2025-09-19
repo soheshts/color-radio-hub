@@ -47,6 +47,17 @@ export default {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
+        radio: {
+          gradient: {
+            start: "hsl(var(--radio-gradient-start))",
+            end: "hsl(var(--radio-gradient-end))",
+          },
+          glass: "hsl(var(--radio-glass))",
+          "glass-border": "hsl(var(--radio-glass-border))",
+          shadow: "hsl(var(--radio-shadow))",
+          playing: "hsl(var(--radio-playing))",
+          paused: "hsl(var(--radio-paused))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",

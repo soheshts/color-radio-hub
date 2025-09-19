@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Lofi Hip Hop Radio",
+    "url": "https://streams.ilovemusic.de/iloveradio17.mp3"
+  },
+  {
+    "name": "Chill Hop Radio",
+    "url": "https://streams.ilovemusic.de/iloveradio16.mp3"
+  },
+  {
+    "name": "Jazz24",
+    "url": "https://live.wostreaming.net/direct/ppm-jazz24mp3-ibc1"
+  },
+  {
+    "name": "Classic Rock Florida",
+    "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/WQSRFM.mp3"
+  },
+  {
+    "name": "Smooth Jazz",
+    "url": "https://smoothjazz.cdnstream1.com/2586_64.mp3"
+  },
+  {
+    "name": "Electronic Dance Music",
+    "url": "https://streams.ilovemusic.de/iloveradio2.mp3"
+  },
+  {
+    "name": "Ambient Sleeping Pill",
+    "url": "https://radio.stereoscenic.com/asp-s"
+  },
+  {
+    "name": "80s New Wave",
+    "url": "https://streams.80s80s.de/newwave/mp3-192/streams.80s80s.de/"
+  }
+]
